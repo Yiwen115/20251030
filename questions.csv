@@ -1,0 +1,31 @@
+question,optionA,optionB,optionC,optionD,answerLetter
+"p5.js 中的 'setup()' 函數會執行幾次？",每次繪圖時,只執行一次,兩次,不會執行,B
+"哪一個 p5.js 函數用來繪製矩形？",ellipse(),line(),rect(),triangle(),C
+"要讓一個形狀沒有邊框，應該使用哪個函數？",stroke(0),noFill(),noStroke(),fill(255),C
+"loadTable() 應該在哪個函數中呼叫以確保檔案載入完成？",draw(),setup(),mousePressed(),preload(),D
+"哪一個變數儲存了滑鼠的 X 座標？",mouseY,pmouseX,mouseX,width,C
+"p5.js 的主要繪圖迴圈函數是什麼？",setup(),preload(),draw(),loop(),C
+"以下哪一個是 p5.js 中用於繪製圓形的函數？",square(),circle(),point(),arc(),B
+"如果想在畫布上顯示文字，應該使用哪個函數？",drawText(),print(),console.log(),text(),D
+"p5.js 中的 width 變數代表什麼？",畫布的高度,畫布的寬度,視窗的寬度,視窗的高度,B
+"哪個函數用於設置背景顏色？",fill(),color(),background(),stroke(),C
+"random(10, 20) 會返回什麼範圍的值？",介於 10 到 20 的整數,介於 10 到 20 之間的浮點數,10 或 20,1 到 30 的整數,B
+"哪個函數用於設置形狀的填充色？",stroke(),colorMode(),fill(),noFill(),C
+"哪個函數用於設置線條和邊框的顏色？",background(),stroke(),color(),fill(),B
+"createCanvas(400, 300) 創建了一個多大的畫布？",寬 300，高 400,寬 400，高 300,寬 700，高 400,寬 300，高 700,B
+"pmouseX 變數儲存了什麼值？",上一幀的滑鼠 X 座標,目前滑鼠的 X 座標,滑鼠點擊時的 X 座標,滑鼠離開畫布的 X 座標,A
+"哪種顏色模式 (Color Mode) 使用 R, G, B 值範圍為 0 到 255？",HSB,CMYK,RGB,GrayScale,C
+"map(50, 0, 100, 0, 255) 的返回值是多少？",50,0,127.5,255,C
+"angleMode(DEGREES) 設置後，rotate(90) 代表旋轉多少度？",90 pi 弧度,90 度,90x180 度,180 度,B
+"要讓一個圓形在畫布中心水平移動，應該改變哪個變數？",圓形的 Y 座標,圓形的直徑,畫布的寬度,圓形的 X 座標,D
+"哪一個是 p5.js 中用於繪製三角形的函數？",quad(),arc(),triangle(),line(),C
+"哪一個函數用於設定文字大小？",textSize(),textStyle(),fontSize(),textWidth(),A
+"push() 和 pop() 函數的主要作用是什麼？",儲存和恢復當前的繪圖設定,儲存和恢復變數值,增加和減少畫布大小,儲存和恢復滑鼠位置,A
+"在 p5.js 中，當使用單一參數呼叫 fill(v) 時，v 通常代表什麼？",顏色飽和度,透明度,亮度,灰階值,D
+"哪一個函數用於繪製貝茲曲線 (Bezier Curve)？",arc(),curve(),bezier(),quad(),C
+"哪個函數用於設置畫布的邊框樣式？",rectMode(),strokeWeight(),ellipseMode(),line(),B
+"keyIsPressed 是一個什麼類型的變數？",字串,數值,布林值 (Boolean),函數,C
+"當滑鼠按下時，哪個事件函數會被觸發一次？",draw(),mousePressed(),mouseMoved(),keyTyped(),B
+"哪一個變數儲存了畫布的高度？",width,height,displayHeight,windowHeight,B
+"dist(x1, y1, x2, y2) 函數計算了什麼？",兩個點之間的路徑長度,兩個點之間的距離,兩個點的平均位置,兩個點的旋轉角度,B
+"frameRate() 函數的作用是什麼？",獲取當前幀數,設置繪圖迴圈的速度 (幀率),計算程式執行時間,重置動畫幀,B
